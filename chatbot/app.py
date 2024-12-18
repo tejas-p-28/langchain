@@ -20,7 +20,7 @@ prompt=ChatPromptTemplate.from_messages(
 
 #streamlit framework
 st.title("Langchain Demo with OPENAI API")
-input_text=st.text_input("Search topic you want")
+input_text=st.text_input("Search topic you want to know")
 
 
 #openai llm 
